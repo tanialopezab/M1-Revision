@@ -1,0 +1,53 @@
+
+
+.page_hero {
+// behavior
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+//structure
+    min-width: 100vw;
+    min-height: 100vh;
+ //cosmetics   
+    color:$colorWhitesnow;
+// background-image: 
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.hero_title {
+
+    font-family: $font-family-titles;
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.hero_subtitle {
+    font-family:$font-family-principal;
+    font-size: 16px;
+    font-weight: $font-weigth-normal;
+}
+
+.ball_container {
+    // behavior
+    // con el contenedor flex centro la imagen de la flecha y la contengo
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    // para poder mover el enlace respecto de su padre que es el contendero donde está
+    position:absolute;
+    bottom: 4%;//abajo del contenedor
+    right:44%; //margen para centrar
+    // structure
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    // cosmetic
+    background-color: $colorWhitesnow;
+  }   
