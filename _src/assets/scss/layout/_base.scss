@@ -1,16 +1,14 @@
-* {
-    box-sizing: border-box;
-
-    * {
-    margin: 0;
-    padding: 0;
+ 
+ * {
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
 // reseteo el documento base para que no existan margenes bordes en la pagina general, y con border-box hacemos que los elementos tengan incluidos en su ancho y su largo tanto el padding como el borde
 
 body {
-
+    
     font-family:$font-family-principal;
     font-weight:normal;
     background:$color-Whitesnow;
@@ -18,5 +16,15 @@ body {
     line-height:1,6;
     min-height: 100vh; 
     // (como mínimo para crecer)
+}
+// IDEA APUNTAR! quito las decoraciones y viñetas de los enlaces y listas desde el principio
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
 
 }
